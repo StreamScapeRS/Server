@@ -1,0 +1,10 @@
+bin
+*.classpath
+.settings
+*.project
+hs_err_pid*
+data/saves/characters/*
+data/saves/logs/*
+out/
+/target/
+*.class
