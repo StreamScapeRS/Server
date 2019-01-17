@@ -1,13 +1,13 @@
 {
-  "total-play-time-ms": 13676635,
-  "username": "Rhys19",
-  "password": "Hockey123456789",
+  "total-play-time-ms": 65521,
+  "username": "D3vilspawn",
+  "password": "test",
   "email": "null",
-  "staff-rights": "DEVELOPER",
+  "staff-rights": "PLAYER",
   "donor-rights": "NONE",
-  "ip": "209.226.189.164",
-  "mac": "C0-F8-DA-54-3D-E1",
-  "uuid": "LXR4P0221311914646160120181024085335.000000-300",
+  "ip": "162.252.11.173",
+  "mac": "00-16-3C-39-9B-D5",
+  "uuid": "20160204203353.000000-480",
   "modeler": false,
   "gambler": false,
   "gfx-designer": false,
@@ -15,8 +15,8 @@
   "game-mode": "NORMAL",
   "loyalty-title": "NONE",
   "position": {
-    "x": 3097,
-    "y": 2997,
+    "x": 3095,
+    "y": 2990,
     "z": 0
   },
   "online-status": "ON",
@@ -24,8 +24,8 @@
   "money-pouch": 0,
   "donated": 0,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 29287,
-  "total-loyalty-points": 3795.0,
+  "total-gained-exp": 0,
+  "total-loyalty-points": 17.0,
   "quest-points": 0,
   "player-kills": 0,
   "player-killstreak": 0,
@@ -39,10 +39,10 @@
   "run-energy": 100,
   "music": false,
   "sounds": false,
-  "auto-retaliate": true,
+  "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1547665588320,
+  "last-veng": 53739,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -56,9 +56,9 @@
   "prayer-renewal-timer": 0,
   "teleblock-timer": 0,
   "special-amount": 100,
-  "extradroprate": 0,
   "summon-npc": -1,
   "summon-death": -1,
+  "pet": -1,
   "process-farming": false,
   "clanchat": "Streamscape",
   "autocast": false,
@@ -8147,10 +8147,10 @@
   ],
   "skills": {
     "level": [
-      33,
       1,
       1,
-      9811,
+      1,
+      100,
       1,
       10,
       1,
@@ -8174,10 +8174,10 @@
       1
     ],
     "maxLevel": [
-      33,
       1,
       1,
-      9990,
+      1,
+      100,
       1,
       10,
       1,
@@ -8201,10 +8201,10 @@
       1
     ],
     "experience": [
-      18837,
       0,
       0,
-      11634,
+      0,
+      1184,
       0,
       0,
       0,
@@ -8230,83 +8230,83 @@
   },
   "inventory": [
     {
+      "id": 1856,
+      "amount": 1,
+      "slot": 0
+    },
+    {
       "id": 995,
-      "amount": 900000000,
+      "amount": 51000000,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1349,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1267,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 9177,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 3289,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1191,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1153,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1115,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1067,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4121,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 380,
+      "amount": 10,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 3024,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2436,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2440,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
+      "id": 2442,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -8477,8 +8477,6 @@
   "kills": [],
   "drops": [],
   "achievements-completion": [
-    false,
-    false,
     true,
     false,
     false,
@@ -8522,7 +8520,6 @@
     false,
     false,
     false,
-    true,
     false,
     false,
     false,
@@ -8551,7 +8548,6 @@
     false,
     false,
     false,
-    true,
     false,
     false,
     false,
@@ -8575,25 +8571,16 @@
     false,
     false,
     false,
-    true,
+    false,
+    false,
+    false,
+    false,
+    false,
     false,
     false,
     false
   ],
   "achievements-progress": [
-    91,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    91,
     0,
     0,
     0,
@@ -8618,7 +8605,6 @@
     0,
     0,
     0,
-    91,
     0,
     0,
     0,
@@ -8635,7 +8621,13 @@
     0,
     0,
     0,
-    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0,
     0,
     0,
@@ -8644,8 +8636,16 @@
     0,
     0,
     1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     1,
-    1,
+    0,
+    0,
     0,
     0,
     0,
@@ -8804,11 +8804,11 @@
   "points-pvp": 0,
   "points-StreamScape": 0,
   "points-prestige": 0,
-  "points-loyalty": 3795,
+  "points-loyalty": 17,
   "points-voting": 0,
   "points-slayer": 0,
   "points-dung": 0,
   "points-donation": 0,
   "points-pc": 0,
-  "points-achievement": 4
+  "points-achievement": 1
 }

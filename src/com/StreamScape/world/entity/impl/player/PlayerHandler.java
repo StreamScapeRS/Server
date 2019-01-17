@@ -41,6 +41,7 @@ import com.StreamScape.world.content.combat.prayer.PrayerHandler;
 import com.StreamScape.world.content.combat.pvp.BountyHunter;
 import com.StreamScape.world.content.combat.range.DwarfMultiCannon;
 import com.StreamScape.world.content.combat.weapon.CombatSpecial;
+import com.StreamScape.world.content.skill.SkillManager;
 import com.StreamScape.world.content.skill.impl.hunter.Hunter;
 import com.StreamScape.world.content.skill.impl.slayer.Slayer;
 import com.StreamScape.world.content.teleportation.TeleportManager;
@@ -233,7 +234,7 @@ public class PlayerHandler {
 				//World.minigameHandler.handleLogout(player);
 				//player.getSummoning().unsummon(false, false);
 				player.getFarming().save();
-				new Hiscores(player).run();
+				//new Hiscores(player).run();
 				BountyHunter.handleLogout(player);
 				ClanChatManager.leave(player, false);
 				player.getRelations().updateLists(false);

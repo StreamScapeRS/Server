@@ -126,12 +126,10 @@ public class SkillManager {
 	 * @return The max level that can be achieved in said skill.
 	 */
 	public static int getMaxAchievingLevel(Skill skill) {
-		int level = 990;
+		int level = 99;
 		if (isNewSkill(skill)) {
 			level = 990;
 		}
-		if (skill == Skill.CONSTITUTION)
-			level = 990;
 		/*
 		 * if (skill == Skill.DUNGEONEERING) { level = 120; }
 		 */
@@ -406,8 +404,6 @@ public class SkillManager {
 	 * @return The skill's maximum level.
 	 */
 	public int getMaxLevel(Skill skill) {
-		if (skill == Skill.CONSTITUTION)
-			return 99;
 		return skills.maxLevel[skill.ordinal()];
 	}
 
