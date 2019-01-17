@@ -75,7 +75,7 @@ public final class GameLoader {
 		serviceLoader.execute(() -> NPC.init());
 		serviceLoader.execute(() -> PacketInteractionManager.init());
 		serviceLoader.execute(() -> Censor.init());
-		serviceLoader.execute(() -> MySQLController.init());
+		//serviceLoader.execute(() -> MySQLController.init());
 		serviceLoader.execute(() -> MonsterDrops.initialize());
 		serviceLoader.execute(() -> Christmas.init());
 	}
